@@ -12,7 +12,6 @@ public class ViewWindow extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        // Column names for the table
         String[] columns = {"ID", "Name", "Age", "GPA"};
 
         // Read data from file
@@ -68,3 +67,4 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
