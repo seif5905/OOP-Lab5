@@ -20,7 +20,6 @@ public class LoginPage extends JFrame {
         JPanel panel = new JPanel(new GridLayout(3, 2, 10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
-        // Create components
         JLabel usernameLabel = new JLabel("Username:");
         usernameField = new JTextField();
 
@@ -66,6 +65,7 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
 
 
