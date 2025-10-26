@@ -36,15 +36,14 @@ public class LoginPage extends JFrame {
 
                 if (username.equals("admin") && password.equals("1234")) {
                     JOptionPane.showMessageDialog(LoginPage.this, "Login successful!");
-                    openDashboard(); // go to next window
-                    dispose(); // close login window
+                    openDashboard();
+                    dispose();
                 } else {
                     JOptionPane.showMessageDialog(LoginPage.this, "Invalid username or password.", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
 
-        // Add components
         panel.add(usernameLabel);
         panel.add(usernameField);
         panel.add(passwordLabel);
@@ -64,6 +63,7 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
 
 
