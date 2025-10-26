@@ -1,4 +1,4 @@
-// Person.java - Abstract class for inheritance
+// Abstract class Person
 public abstract class Person {
     protected String name;
     protected int age;
@@ -10,7 +10,7 @@ public abstract class Person {
         this.gender = gender;
     }
     
-    // Abstract method
+    // Abstract
     public abstract void displayInfo();
     
     // Getters
