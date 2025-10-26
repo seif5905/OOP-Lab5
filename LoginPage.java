@@ -11,7 +11,6 @@ public class LoginPage extends JFrame {
     private JButton loginButton;
 
     public LoginPage() {
-        // Set up the frame
         setTitle("Login Page");
         setSize(350, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -68,5 +67,6 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
 
