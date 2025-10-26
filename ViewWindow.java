@@ -14,7 +14,6 @@ public class ViewWindow extends JFrame {
 
         String[] columns = {"ID", "Name", "Age", "GPA"};
 
-        // Read data from file
         Object[][] data = readStudentsFromFile("students.txt");
 
         // Create JTable with the data
@@ -67,4 +66,5 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
