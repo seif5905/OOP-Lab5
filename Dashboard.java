@@ -12,7 +12,6 @@ public class Dashboard extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Use GridLayout for 4 buttons
         JPanel panel = new JPanel(new GridLayout(2, 2, 15, 15));
         panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
 
@@ -48,3 +47,4 @@ public class Dashboard extends JFrame {
         SwingUtilities.invokeLater(() -> new Dashboard());
     }
 }
+
