@@ -16,7 +16,6 @@ public class ViewWindow extends JFrame {
 
         Object[][] data = readStudentsFromFile("students.txt");
 
-        // Create JTable with the data
         JTable table = new JTable(data, columns);
         table.setFont(new Font("Arial", Font.PLAIN, 14));
         table.setRowHeight(25);
@@ -66,5 +65,6 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
