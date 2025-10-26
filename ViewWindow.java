@@ -24,7 +24,6 @@ public class ViewWindow extends JFrame {
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        // Add title label
         JLabel title = new JLabel("Student Details", SwingConstants.CENTER);
         title.setFont(new Font("Arial", Font.BOLD, 18));
         title.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
@@ -64,6 +63,7 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
 
