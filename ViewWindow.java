@@ -35,7 +35,6 @@ public class ViewWindow extends JFrame {
         setVisible(true);
     }
 
-    // Helper method to read students from a file
     private Object[][] readStudentsFromFile(String fileName) {
         ArrayList<Object[]> list = new ArrayList<>();
 
@@ -62,6 +61,7 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
 
