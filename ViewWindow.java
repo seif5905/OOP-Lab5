@@ -28,7 +28,6 @@ public class ViewWindow extends JFrame {
         title.setFont(new Font("Arial", Font.BOLD, 18));
         title.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
 
-        // Add everything to frame
         setLayout(new BorderLayout());
         add(title, BorderLayout.NORTH);
         add(scrollPane, BorderLayout.CENTER);
@@ -63,6 +62,7 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
 
