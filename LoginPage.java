@@ -60,7 +60,6 @@ public class LoginPage extends JFrame {
         setVisible(true);
     }
 
-    // Open the next window
     private void openDashboard() {
         SwingUtilities.invokeLater(() -> new Dashboard());
     }
@@ -69,3 +68,4 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
