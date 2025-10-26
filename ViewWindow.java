@@ -21,7 +21,6 @@ public class ViewWindow extends JFrame {
         table.setRowHeight(25);
         table.getTableHeader().setFont(new Font("Arial", Font.BOLD, 14));
 
-        // Make the table scrollable
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
@@ -65,6 +64,7 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
 
