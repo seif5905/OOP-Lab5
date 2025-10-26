@@ -26,13 +26,11 @@ public class Dashboard extends JFrame {
         updateButton.setFont(btnFont);
         deleteButton.setFont(btnFont);
 
-        // Add event listeners
         addButton.addActionListener(e -> new AddWindow());
         viewButton.addActionListener(e -> new ViewWindow());
         updateButton.addActionListener(e -> new UpdateWindow());
         deleteButton.addActionListener(e -> new DeleteWindow());
 
-        // Add buttons to panel
         panel.add(addButton);
         panel.add(viewButton);
         panel.add(updateButton);
@@ -46,5 +44,6 @@ public class Dashboard extends JFrame {
         SwingUtilities.invokeLater(() -> new Dashboard());
     }
 }
+
 
 
