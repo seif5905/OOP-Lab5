@@ -20,7 +20,6 @@ public class Dashboard extends JFrame {
         JButton updateButton = new JButton("Update");
         JButton deleteButton = new JButton("Delete");
 
-        // Make buttons bigger
         Font btnFont = new Font("Arial", Font.BOLD, 16);
         addButton.setFont(btnFont);
         viewButton.setFont(btnFont);
@@ -47,4 +46,5 @@ public class Dashboard extends JFrame {
         SwingUtilities.invokeLater(() -> new Dashboard());
     }
 }
+
 
