@@ -52,7 +52,6 @@ public class ViewWindow extends JFrame {
                     "File Error", JOptionPane.ERROR_MESSAGE);
         }
 
-        // Convert ArrayList to 2D array
         Object[][] data = new Object[list.size()][4];
         for (int i = 0; i < list.size(); i++) {
             data[i] = list.get(i);
@@ -61,6 +60,7 @@ public class ViewWindow extends JFrame {
         return data;
     }
 }
+
 
 
 
