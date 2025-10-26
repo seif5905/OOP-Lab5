@@ -53,7 +53,7 @@ public class LoginPage extends JFrame {
         panel.add(usernameField);
         panel.add(passwordLabel);
         panel.add(passwordField);
-        panel.add(new JLabel()); // empty cell
+        panel.add(new JLabel());
         panel.add(loginButton);
 
         add(panel);
@@ -68,4 +68,5 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
