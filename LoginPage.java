@@ -28,7 +28,6 @@ public class LoginPage extends JFrame {
 
         loginButton = new JButton("Login");
 
-        // Add action listener
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -65,6 +64,7 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
 
 
