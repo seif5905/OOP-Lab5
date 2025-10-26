@@ -17,7 +17,6 @@ public class LoginPage extends JFrame {
         setLocationRelativeTo(null);
         setResizable(false);
 
-        // Create main panel
         JPanel panel = new JPanel(new GridLayout(3, 2, 10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
@@ -67,6 +66,7 @@ public class LoginPage extends JFrame {
         SwingUtilities.invokeLater(() -> new LoginPage());
     }
 }
+
 
 
 
