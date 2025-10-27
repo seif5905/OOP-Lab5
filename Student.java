@@ -70,7 +70,6 @@ public class Student implements Serializable {
     
     @Override
     public String toString() {
-        return "Student ID: " + studentId + ", Name: " + fullName + ", Age: " + age + 
-               ", Gender: " + gender + ", Department: " + department + ", GPA: " + gpa;
+        return "Student ID: " + studentId + ", Name: " + fullName + ", Age: " + age + ", Gender: " + gender + ", Department: " + department + ", GPA: " + gpa;
     }
 }
